@@ -22,7 +22,7 @@
 
 2. Qdrant を起動（永続化は `./qdrant_data` に保存されます）
    ```bash
-   docker compose up -d qdrant
+   docker compose up -d 
    ```
 3. OpenAI 互換の埋め込み API を `http://localhost:1234/v1` で起動し、`text-embedding-qwen3-embedding-0.6b` が呼べる状態にしておきます。
    API キーは任意ですが、コードでは `not-needed` を渡しています。
